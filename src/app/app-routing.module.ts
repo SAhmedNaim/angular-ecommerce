@@ -1,3 +1,4 @@
+import { AuthGuard } from './auth.guard';
 import { SellerAuthComponent } from './seller-auth/seller-auth.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
@@ -15,7 +16,8 @@ const routes: Routes = [
   },
   {
     path: 'seller-home',
-    component: SellerHomeComponent
+    component: SellerHomeComponent,
+    canActivate: [AuthGuard]
   },
 ];
 

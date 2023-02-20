@@ -23,6 +23,12 @@
       "password": "123456",
       "email": "alamgir@gmail.com",
       "id": 4
+    },
+    {
+      "name": "Nobin Khan",
+      "password": "12345",
+      "email": "nobin@gmail.com",
+      "id": 5
     }
   ]
 }

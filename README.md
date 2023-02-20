@@ -29,3 +29,15 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## Fake JSON Server
 Source => https://github.com/typicode/json-server
 
+## JSON Server
+- npm i -g json-server
+- json-server --watch db.json
+
+## Commands:
+- ng g c header
+- ng g c home
+- ng g c seller-auth
+- ng g service services/seller
+- ng g c seller-home
+- ng g guard auth
+- 
