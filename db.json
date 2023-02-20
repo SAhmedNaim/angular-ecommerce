@@ -11,6 +11,18 @@
       "email": "naim.ahmed005@gmail.com",
       "password": "1234567",
       "id": 2
+    },
+    {
+      "name": "Test",
+      "password": "12345",
+      "email": "test@gmail.com",
+      "id": 3
+    },
+    {
+      "name": "Alamgir Hossain",
+      "password": "123456",
+      "email": "alamgir@gmail.com",
+      "id": 4
     }
   ]
 }

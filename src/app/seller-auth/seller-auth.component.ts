@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { SellerService } from '../services/seller.service';
+import { Router } from '@angular/router';
+import { SignUp } from '../data-type';
 
 @Component({
   selector: 'app-seller-auth',
@@ -6,14 +9,19 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./seller-auth.component.scss']
 })
 export class SellerAuthComponent implements OnInit {
-  constructor() {}
+  constructor(private seller: SellerService, private router: Router) {}
 
   ngOnInit(): void {
     
   }
 
-  signUp(data: object): void {
+  signUp(data: SignUp): void {
     console.warn(data);
+    this.seller.userSignUp(data).subscribe((result) => {
+      if(result) {
+        this.router.navigate(['seller-home']);
+      }
+    });
   }
 
 }
