@@ -1,0 +1,16 @@
+{
+  "seller": [
+    {
+      "name": "S Ahmed Naim",
+      "email": "naim.ahmed035@gmail.com",
+      "password": "1234567",
+      "id": 1
+    },
+    {
+      "name": "Naim Ahmed",
+      "email": "naim.ahmed005@gmail.com",
+      "password": "1234567",
+      "id": 2
+    }
+  ]
+}
